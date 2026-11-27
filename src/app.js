@@ -1,5 +1,5 @@
 const http = require('node:http');
-hello there
+
 function readJson(req) {
   return new Promise((resolve, reject) => {
     let body = '';
